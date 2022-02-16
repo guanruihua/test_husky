@@ -3,4 +3,5 @@
 
 # npm test
 # npx lint-staged
-npm run lint
+# REM npm run lint
+npx --no-install commitlint --edit "$1"
