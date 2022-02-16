@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.11.1
   '@babel/preset-env': ^7.15.0
   '@babel/preset-react': ^7.10.4
+  '@commitlint/cli': ^16.2.1
   '@commitlint/config-conventional': ^16.2.1
   '@reduxjs/toolkit': ^1.6.1
   '@types/react': ^17.0.15
@@ -74,6 +75,7 @@ devDependencies:
   '@babel/core': 7.17.4
   '@babel/preset-env': 7.16.11_@babel+core@7.17.4
   '@babel/preset-react': 7.16.7_@babel+core@7.17.4
+  '@commitlint/cli': 16.2.1
   '@commitlint/config-conventional': 16.2.1
   '@reduxjs/toolkit': 1.7.2_react-redux@7.2.6+react@17.0.2
   '@types/react': 17.0.39
