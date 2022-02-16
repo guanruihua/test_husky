@@ -7,7 +7,6 @@
     "start": "webpack serve --config ./config/webpack.config.dev.js",
     "build": "webpack --mode=production --config ./config/webpack.config.prod.js",
     "prepare": "husky install",
-    "commit-msg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,16 +22,6 @@
     "url": "https://github.com/guanruihua/test_husky/issues"
   },
   "homepage": "https://github.com/guanruihua/test_husky#readme",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS"
-    }
-  },
-  "lint-staged": {
-    "*.{ts,js,tsx}": [
-      "eslint --cache"
-    ]
-  },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.15.0",

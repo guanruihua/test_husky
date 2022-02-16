@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-// const a: number = 123
-// console.log(a)
+const a = 123
 
-// a = 456123
+a = 456123
+console.log(a)
 ReactDOM.render(<div>loadding </div>, document.getElementById('root'))
