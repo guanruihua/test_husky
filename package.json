@@ -22,6 +22,11 @@
     "url": "https://github.com/guanruihua/test_husky/issues"
   },
   "homepage": "https://github.com/guanruihua/test_husky#readme",
+  "lint-staged": {
+    "*.{ts,js,tsx}": [
+      "eslint --cache"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.15.0",
