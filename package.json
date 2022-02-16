@@ -23,12 +23,10 @@
   },
   "homepage": "https://github.com/guanruihua/test_husky#readme",
   "lint-staged": {
-    "src/**/*.{js,jsx,tsx,ts}": "eslint --fix"
-  },
-  "settings": {
-    "jest": {
-      "version": 26
-    }
+    "*.{ts,js,tsx}": [
+      "eslint",
+      "echo 'no error'"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
