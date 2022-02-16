@@ -24,8 +24,7 @@
   "homepage": "https://github.com/guanruihua/test_husky#readme",
   "lint-staged": {
     "*.{ts,js,tsx}": [
-      "eslint",
-      "echo 'no error'"
+      "eslint --cache"
     ]
   },
   "devDependencies": {
