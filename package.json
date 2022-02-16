@@ -25,8 +25,7 @@
   "homepage": "https://github.com/guanruihua/test_husky#readme",
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint"
+      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
