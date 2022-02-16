@@ -1,5 +1,5 @@
 const proxyConfig = {
-	'*': {
+	'/api/': {
 	  target: 'http://localhost:8090'
 	}
 }

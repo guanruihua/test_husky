@@ -6,6 +6,7 @@ dist
 .eslintrc.js
 .cz-config.js
 test/
+config/
 lib/
 src/*/__test__
 // ...
