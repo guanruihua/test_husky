@@ -1,0 +1,11 @@
+node_modules
+build/*.js
+src/assets
+public
+dist
+.eslintrc.js
+.cz-config.js
+test/
+lib/
+src/*/__test__
+// ...
