@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new webpack.ProgressPlugin(),
     new ESLintPlugin({
       context: './src', // 检查目录
       extensions: ['js', 'jsx', 'ts', 'tsx'] // 文件扩展

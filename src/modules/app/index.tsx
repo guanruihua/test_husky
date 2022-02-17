@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
 import styles from './style.module.less'
-import './index.less'
 
 function App() {
   return (
