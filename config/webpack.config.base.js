@@ -61,7 +61,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.less$/,
+        test: /\.module.less$/,
         exclude: /node_modules/,
         use: [
           'style-loader',
@@ -71,7 +71,7 @@ module.exports = {
               modules: {
                 localIdentName: '_[local]_[hash:base64:6]'
               },
-              importLoaders: 1
+              importLoaders: 2
             }
           },
           {
@@ -81,14 +81,30 @@ module.exports = {
             loader: 'less-loader',
             options: {
               lessOptions: {
-                importLoaders: 1,
+                importLoaders: 2,
                 javascriptEnabled: true
               }
             }
           }
         ]
       },
-
+      {
+        test: /\.less$/,
+        exclude: /\.module.less|node_modules/,
+        use: [
+          'style-loader',
+          'css-loader',
+          // 'postcss-loader',
+          {
+            loader: 'less-loader',
+            options: {
+              lessOptions: {
+                javascriptEnabled: true
+              }
+            }
+          }
+        ]
+      },
       {
         test: /\.css$/i,
         exclude: /node_modules/,
