@@ -9,11 +9,12 @@ declare module '*.json'
 declare module '*.ico'
 declare module 'qs'
 declare module '@loadable/component'
+declare module 'react-intl/locale-data/*'
 declare module '@ant-design/icons'
 declare module '@assets*'
 declare module 'moment'
 // declare module 'style.module.less'
-declare module '*style.module.less' {
+declare module '*.module.less' {
   const resource: { [key: string]: string }
   export = resource
 }
