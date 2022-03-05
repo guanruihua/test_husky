@@ -1,3 +1,3 @@
-import AppStore from './modules/app'
+import AppStore from './modules/app/store'
 
 export default { AppStore }
